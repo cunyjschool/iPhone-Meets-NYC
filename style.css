@@ -1,0 +1,26 @@
+/*
+Theme Name: Fullscreen Child
+Theme URI: http://graphpaperpress.com/
+Description: Fullscreen Child Theme
+Version: 2.4.2
+Tags: photography, one-column, minimal, widgets, black, portfolio, video, multimedia, framework
+Author: Thad Allender
+Author URI: http://graphpaperpress.com/
+Contributors: Chandra Maharzan
+License: GPL
+Template: fullscreen
+*/
+
+@import url("../fullscreen/style.css");
+
+.postmetadata .icon, .postmetadata #dialog_link, #footer .column.span-5.small.last {
+	display: none;
+}
+
+.postmetadata #post-nav {
+	float: none;
+}
+
+.container{
+	margin-left: 50px;
+}
