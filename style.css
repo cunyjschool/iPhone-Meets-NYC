@@ -7,10 +7,10 @@ Tags: photography, one-column, minimal, widgets, black, portfolio, video, multim
 Author: Kirsti Itameri
 Author URI: http://iphonemeetsnyc.com/
 License: GPL
-Template: fullscreen
+Template: graphpaperpress/fullscreen
 */
 
-@import url("../fullscreen/style.css");
+@import url("../graphpaperpress/fullscreen/style.css");
 
 .postmetadata .icon, .postmetadata #dialog_link, #footer .column.span-5.small.last {
 	display: none;
