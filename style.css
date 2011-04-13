@@ -20,6 +20,11 @@ Template: graphpaperpress/fullscreen
 	float: none;
 }
 
-.container{
+.container {
 	margin-left: 50px;
+}
+
+ul.thumbs li.thumb-big {
+	height: 160px;
+	width: 160px;
 }
