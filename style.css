@@ -28,3 +28,8 @@ ul.thumbs li.thumb-big {
 	height: 160px;
 	width: 160px;
 }
+
+.home-thumbs, #branding {
+	position: relative;
+	top: 0;
+}
