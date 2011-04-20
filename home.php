@@ -2,7 +2,7 @@
 
 <!-- Begin top thumbnails -->
 <div class="home-thumbs">
-<?php $home_query = new WP_Query("cat=&showposts=6"); $i = 0; ?>
+<?php $home_query = new WP_Query("cat=&showposts=8"); $i = 0; ?>
 <ul class="thumbs">
 	<?php while ($home_query->have_posts()) : $home_query->the_post();
 	    $do_not_duplicate = $post->ID; $i++; ?>
@@ -25,7 +25,7 @@
 
 <!-- Begin middle thumbnails -->
 <div class="home-thumbs middle-thumbs">
-<?php $home_query = new WP_Query("cat=&showposts=6&offset=6"); $i = 0; ?>
+<?php $home_query = new WP_Query("cat=&showposts=8&offset=8"); $i = 0; ?>
 <ul class="thumbs">
 	<?php while ($home_query->have_posts()) : $home_query->the_post();
 	    $do_not_duplicate = $post->ID; $i++; ?>
@@ -36,7 +36,7 @@
 
 <!-- Begin bottom thumbnails -->
 <div class="home-thumbs bottom-thumbs">
-<?php $home_query_bottom = new WP_Query("cat=&showposts=6&offset=12"); $b = 0; ?>
+<?php $home_query_bottom = new WP_Query("cat=&showposts=8&offset=16"); $b = 0; ?>
 <ul class="thumbs">
 	<?php while ($home_query_bottom->have_posts()) : $home_query_bottom->the_post();
 	    $do_not_duplicate = $post->ID; $b++; ?>
@@ -48,7 +48,7 @@
 
 <!-- Begin very-bottom thumbnails -->
 <div class="home-thumbs very-bottom-thumbs">
-<?php $home_query_bottom = new WP_Query("cat=&showposts=6&offset=18"); $b = 0; ?>
+<?php $home_query_bottom = new WP_Query("cat=&showposts=8&offset=24"); $b = 0; ?>
 <ul class="thumbs">
 	<?php while ($home_query_bottom->have_posts()) : $home_query_bottom->the_post();
 	    $do_not_duplicate = $post->ID; $b++; ?>
